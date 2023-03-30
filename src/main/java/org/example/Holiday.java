@@ -34,9 +34,6 @@ public class Holiday {
 
     @Override
     public String toString() {
-        return "Holiday{" +
-                "date=" + date +
-                ", holidayName='" + holidayName + '\'' +
-                '}';
+        return "This year " + holidayName + " is celebrated on " + date;
     }
 }
